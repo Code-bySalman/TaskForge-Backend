@@ -16,7 +16,7 @@ const PORT = process.env.PORT || 5000;
 
 // Middleware
 app.use(cors({
-  origin: "*",
+  origin: "https://task-forge-frontend-2dursq455-salmans-projects-351d286b.vercel.app",
   credentials: true,
 }));
 app.use(express.json());
